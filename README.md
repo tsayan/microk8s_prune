@@ -1,4 +1,8 @@
 # microk8s_prune
+sudo apt install python3.10-venv
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 
 **Official tool**: For cleanup, the crictl tool from cri-tools have now a rmi --prune feature. Thanks to Franco Martin (https://discuss.kubernetes.io/t/microk8s-images-prune-utility-for-production-servers/15874/2) for the info
 
